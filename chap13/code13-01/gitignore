@@ -1,0 +1,4 @@
+#開発チーム用 Git登録除外指定
+*.class
+/class/
+dummy

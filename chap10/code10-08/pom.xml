@@ -1,0 +1,24 @@
+<!-- コード10-8はここから -->
+<project>
+  <modelVersion>4.0.0</modelVersion>
+<!-- ここまで表示 -->
+
+  <groupId>jp.miyabilink.sukkiri</groupId>
+  <artifactId>sukkiri-quest</artifactId>
+  <version>1.0.0</version>
+
+  <properties>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+  </properties>
+
+<!-- コード10-8はここから -->
+  <dependencies>
+    <dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>5.3</version>
+   </dependency>
+  </dependencies>
+</project>
+<!-- ここまで表示 -->
