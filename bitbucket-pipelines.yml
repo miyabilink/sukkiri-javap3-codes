@@ -5,7 +5,7 @@ pipelines:
       main:
         - step:
            script:
-             - git remote add sync git@github.com:miyabilink/sukkiri-java3-codes.git
+             - git remote add sync git@github.com:miyabilink/sukkiri-javap3-codes.git
              - git checkout main
              - git pull
              - git merge origin/main
