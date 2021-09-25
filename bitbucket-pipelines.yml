@@ -1,8 +1,8 @@
 image: atlassian/default-image:2
 
 pipelines:
-    branches:
-      main:
+    tags:
+      v*:
         - step:
            script:
              - git remote add sync git@github.com:miyabilink/sukkiri-javap3-codes.git
