@@ -26,7 +26,7 @@ public class Main {
 
     for (Book b : books) {
       System.out.println(b.getTitle() + " "
-          + f.format(b.getPublishData()) + " "
+          + f.format(b.getPublishDate()) + " "
           + b.getComment());
     }
   }

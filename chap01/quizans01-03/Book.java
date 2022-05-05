@@ -37,14 +37,14 @@ public class Book implements Comparable<Book>, Cloneable {
     b.publishDate = (Date)this.publishDate.clone();
     return b;
   }
-  
+
   public String getTitle() {
     return this.title;
   }
   public void setTitle(String title) {
     this.title = title;
   }
-  public Date getPublishData() {
+  public Date getPublishDate() {
     return this.publishDate;
   }
   public void setPublishDate(Date publishDate) {
