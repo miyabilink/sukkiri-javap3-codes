@@ -12,7 +12,7 @@ public class ItemsDAO {
     Connection con = null;
     try {
       con = DriverManager.getConnection("jdbc:h2:~/rpgdb");
-      PreparedStatement pstmt = con.prepareStatement("SELECT * FROM ITEMS WHERE PRICE > ?");
+      PreparedStatement pstmt = con.prepareStatement("SELECT * FROM ITEMS WHERE PRICE >= ?");
       pstmt.setInt(1, i);
       ResultSet rs = pstmt.executeQuery();
       // ここでItemを入れていくArrayListを準備

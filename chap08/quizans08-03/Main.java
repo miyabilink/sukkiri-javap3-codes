@@ -16,8 +16,8 @@ public class Main {
       .GET()
       .build();
     HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-    String body = res.body();
-    int status = res.statusCode();
+    String body = response.body();
+    int status = response.statusCode();
     if (status == 200) {
       ObjectMapper mapper = new ObjectMapper();
       JsonNode root = mapper.readTree(body);

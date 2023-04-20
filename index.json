@@ -1,0 +1,2086 @@
+[
+  {
+    "id": "chap01",
+    "label": "第1章 インスタンスの基本操作",
+    "children": [
+      {
+        "id": "code01-01",
+        "label_header": "コード1-1",
+        "label": "toString（）のオーバーライド",
+        "sourceFiles": [
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-02",
+        "label_header": "コード1-2",
+        "label": "銀行クラスのequals（）をオーバーライド",
+        "sourceFiles": [
+          "Account.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-03",
+        "label_header": "コード1-3",
+        "label": "不具合につながる例",
+        "sourceFiles": [
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-04",
+        "label_header": "コード1-4",
+        "label": "配列をequals（）で比較する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-05",
+        "label_header": "コード1-5",
+        "label": "HashSetの利用でremove（）できない例",
+        "sourceFiles": [
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-06",
+        "label_header": "コード1-6",
+        "label": "HeroクラスでhashCode（）をオーバーライド",
+        "sourceFiles": [
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-07",
+        "label_header": "コード1-7",
+        "label": "口座インスタンスの並び替え（エラー）",
+        "sourceFiles": [
+          "Main.java",
+          "Account.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-08",
+        "label_header": "コード1-8",
+        "label": "Accountクラスの自然順序付けを定義",
+        "sourceFiles": [
+          "Account.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-09",
+        "label_header": "コード1-9",
+        "label": "「残高順」を実装したコンパレータ",
+        "sourceFiles": [
+          "ZandakaComparator.java",
+          "Account.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-10",
+        "label_header": "コード1-10",
+        "label": "clone（）による複製をサポートしたHeroクラス",
+        "sourceFiles": [
+          "Hero.java",
+          "Sword.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-11",
+        "label_header": "コード1-11",
+        "label": "複製した勇者の剣の名前を変更してみる",
+        "sourceFiles": [
+          "Main.java",
+          "Hero.java",
+          "Sword.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code01-12",
+        "label_header": "コード1-12",
+        "label": "深いコピーに対応したSword／Heroクラス",
+        "sourceFiles": [
+          "Sword.java",
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz01-01",
+        "label_header": "",
+        "label": "練習1-1",
+        "sourceFiles": [
+          "Book.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans01-01",
+        "label_header": "",
+        "label": "練習1-1の解答",
+        "sourceFiles": [
+          "Book.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans01-02",
+        "label_header": "",
+        "label": "練習1-2の解答",
+        "sourceFiles": [
+          "TitleComparator.java",
+          "Book.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans01-03",
+        "label_header": "",
+        "label": "練習1-3の解答",
+        "sourceFiles": [
+          "Main.java",
+          "Book.java",
+          "TitleComparator.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap02",
+    "label": "第2章 さまざまな種類のクラス",
+    "children": [
+      {
+        "id": "code02-01",
+        "label_header": "コード2-1",
+        "label": "型のしくみがないJavaプログラム",
+        "sourceFiles": [
+          "Main.java",
+          "Hero.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-02",
+        "label_header": "コード2-2",
+        "label": "ジェネリクスを使わないPocketクラス（ver.1）",
+        "sourceFiles": [
+          "Pocket.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-03",
+        "label_header": "コード2-3",
+        "label": "Pocketクラス（ver.1）を利用するプログラム",
+        "sourceFiles": [
+          "Main.java",
+          "Pocket.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-04",
+        "label_header": "コード2-4",
+        "label": "ジェネリクスを使ったPocketクラス（ver.2）",
+        "sourceFiles": [
+          "Pocket.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-05",
+        "label_header": "コード2-5",
+        "label": "Pocketクラス（ver.2）から作られるクラス",
+        "sourceFiles": [
+          "Pocket.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-06",
+        "label_header": "コード2-6",
+        "label": "Pocketクラス（ver.2）を利用するプログラム",
+        "sourceFiles": [
+          "Main.java",
+          "Pocket.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-07",
+        "label_header": "コード2-7",
+        "label": "Accountクラス（湊ver.）",
+        "sourceFiles": [
+          "Account.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-08",
+        "label_header": "コード2-8",
+        "label": "Accountクラス（朝香ver.）",
+        "sourceFiles": [
+          "Account.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-09",
+        "label_header": "コード2-9",
+        "label": "口座種別を表す列挙型定義",
+        "sourceFiles": [
+          "AccountType.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-10",
+        "label_header": "コード2-10",
+        "label": "列挙型を活用して型安全にしたAccountクラス",
+        "sourceFiles": [
+          "Account.java",
+          "AccountType.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-11",
+        "label_header": "コード2-11",
+        "label": "static付きメンバクラスの利用例",
+        "sourceFiles": [
+          "Outer.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-12",
+        "label_header": "コード2-12",
+        "label": "ローカルクラスの利用例",
+        "sourceFiles": [
+          "Outer.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-13",
+        "label_header": "コード2-13",
+        "label": "匿名クラスの利用例",
+        "sourceFiles": [
+          "Main.java",
+          "Pocket.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code02-14",
+        "label_header": "コード2-14",
+        "label": "Optionalを利用してnull安全性に配慮する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans02-01",
+        "label_header": "",
+        "label": "練習2-1の解答",
+        "sourceFiles": [
+          "StrongBox.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans02-02",
+        "label_header": "",
+        "label": "練習2-2の解答",
+        "sourceFiles": [
+          "KeyType.java",
+          "StrongBox.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap03",
+    "label": "第3章 関数とラムダ式",
+    "children": [
+      {
+        "id": "code03-01",
+        "label_header": "コード3-1",
+        "label": "メソッドは関数の一種ともいえる",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-02",
+        "label_header": "コード3-2",
+        "label": "メソッドを変数に代入して呼び出す例",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-03",
+        "label_header": "コード3-3",
+        "label": "オリジナルの関数インタフェース",
+        "sourceFiles": [
+          "PartyInfoConsumer.java",
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-04",
+        "label_header": "コード3-4",
+        "label": "関数をその場で生み出し、代入し、呼び出す",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-05",
+        "label_header": "コード3-5",
+        "label": "ラムダ式を使って口座クラスを残高順に並び替える",
+        "sourceFiles": [
+          "Main.java",
+          "Account.java",
+          "AccountType.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-06",
+        "label_header": "コード3-6",
+        "label": "戦闘不能な勇者を探す（通常の方法）",
+        "sourceFiles": [
+          "Main.java",
+          "Hero.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code03-07",
+        "label_header": "コード3-7",
+        "label": "戦闘不能な勇者を探す（高階関数の利用）",
+        "sourceFiles": [
+          "Main.java",
+          "Hero.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz03-01",
+        "label_header": "",
+        "label": "練習3-1",
+        "sourceFiles": [
+          "FuncList.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans03-01",
+        "label_header": "",
+        "label": "練習3-1の解答",
+        "sourceFiles": [
+          "Func1.java",
+          "Func2.java",
+          "Main.java",
+          "FuncList.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans03-02",
+        "label_header": "",
+        "label": "練習3-2の解答",
+        "sourceFiles": [
+          "Main.java",
+          "Func1.java",
+          "Func2.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans03-03",
+        "label_header": "",
+        "label": "練習3-3の解答",
+        "sourceFiles": [
+          "Main.java",
+          "Func2.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans03-04",
+        "label_header": "",
+        "label": "練習3-4の解答",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap04",
+    "label": "第4章 JVM制御とリフレクション",
+    "children": [
+      {
+        "id": "code04-01",
+        "label_header": "コード4-1",
+        "label": "System.exit（）によるプログラムの終了",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-02",
+        "label_header": "コード4-2",
+        "label": "計算処理が完了したらメモ帳を起動する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードは外部プログラムを利用しているため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code04-03",
+        "label_header": "コード4-3",
+        "label": "システムプロパティの取得",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code04-04",
+        "label_header": "コード4-4",
+        "label": "システムプロパティを利用した値の読み書き",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードは起動時にオプション指定が必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code04-05",
+        "label_header": "コード4-5",
+        "label": "言語によって表示内容を切り替える",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-06",
+        "label_header": "コード4-6",
+        "label": "タイムゾーンを表示する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code04-07",
+        "label_header": "コード4-7",
+        "label": "Stringの型情報を取得して表示する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code04-08",
+        "label_header": "コード4-8",
+        "label": "リフレクションを用いてメンバを直接操作する",
+        "sourceFiles": [
+          "RefSample.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans04-01",
+        "label_header": "",
+        "label": "練習4-1の解答",
+        "sourceFiles": [
+          "Launcher.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはコマンドライン引数の指定が必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans04-02",
+        "label_header": "",
+        "label": "練習4-2の解答",
+        "sourceFiles": [
+          "MemoryEater.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap05",
+    "label": "第5章 非標準ライブラリの活用",
+    "children": [
+      {
+        "id": "code05-01",
+        "label_header": "コード5-1",
+        "label": "湊くんが作っているGame.java",
+        "sourceFiles": [
+          "Game.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-02",
+        "label_header": "コード5-2",
+        "label": "EqualsBuilderを用いないBankクラス",
+        "sourceFiles": [
+          "Bank.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code05-03",
+        "label_header": "コード5-3",
+        "label": "EqualsBuilderを用いたBankクラス",
+        "sourceFiles": [
+          "Bank.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードが利用しているcommons-lang3は、dokojavaではコンパイルのみサポートしています。dokojavaではコンパイルは成功しますが実行できません"
+      },
+      {
+        "id": "code05-04",
+        "label_header": "コード5-4",
+        "label": "HashCodeBuilder用いたBankクラス",
+        "sourceFiles": [
+          "Bank.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードが利用しているcommons-lang3は、dokojavaではコンパイルのみサポートしています。dokojavaではコンパイルは成功しますが実行できません"
+      },
+      {
+        "id": "code05-05",
+        "label_header": "コード5-5",
+        "label": "Log4J2によるエラーログの出力",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "quizans05-02",
+        "label_header": "",
+        "label": "練習5-2の解答",
+        "sourceFiles": [
+          "Book.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードが利用しているcommons-lang3は、dokojavaではコンパイルのみサポートしています。dokojavaではコンパイルは成功しますが実行できません"
+      }
+    ]
+  },
+  {
+    "id": "chap06",
+    "label": "第6章 外部資源へのアクセス",
+    "children": [
+      {
+        "id": "code06-01",
+        "label_header": "コード6-1",
+        "label": "FileWriterを用いたサンプルコード",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code06-02",
+        "label_header": "コード6-2",
+        "label": "FileReaderを用いたサンプルコード",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code06-03",
+        "label_header": "コード6-3",
+        "label": "ファイルに2進数の01000001を追記する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code06-04",
+        "label_header": "コード6-4",
+        "label": "正しく例外処理を記述したコード6-1",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code06-05",
+        "label_header": "コード6-5",
+        "label": "try-with-resources文の利用",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code06-06",
+        "label_header": "コード6-6",
+        "label": "文字列型の変数から1文字ずつ読み取る",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code06-07",
+        "label_header": "コード6-7",
+        "label": "バイト配列に値を書き込む",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans06-01",
+        "label_header": "",
+        "label": "練習6-1の解答",
+        "sourceFiles": [
+          "Main.java",
+          "AnotherMain.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはコマンドライン引数の指定およびファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans06-02",
+        "label_header": "",
+        "label": "練習6-2の解答",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはコマンドライン引数の指定およびファイルを読み書きするため、dokojavaでは正しく実行できません"
+      }
+    ]
+  },
+  {
+    "id": "chap07",
+    "label": "第7章 さまざまなファイル形式",
+    "children": [
+      {
+        "id": "code07-01",
+        "label_header": "コード7-1",
+        "label": "勇者インスタンスの情報を保存するメソッド",
+        "sourceFiles": [
+          "Save.java",
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-02",
+        "label_header": "コード7-2",
+        "label": "CSV形式でデータを書き出すプログラム（一部）",
+        "sourceFiles": [
+          "SaveCSV.java",
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-03",
+        "label_header": "コード7-3",
+        "label": "String.split（）を使った文字列の分割",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-04",
+        "label_header": "コード7-4",
+        "label": "commons-csvの利用例",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリの利用およびファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-05",
+        "label_header": "コード7-5",
+        "label": "プロパティファイルを読み取る",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-06",
+        "label_header": "コード7-6",
+        "label": "プロパティファイルへの書き込み",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-07",
+        "label_header": "コード7-7",
+        "label": "ResourceBundleを用いたファイルの読み込み",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-08",
+        "label_header": "コード7-8",
+        "label": "環境によってプロパティファイルの値を切り替える",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code07-09",
+        "label_header": "コード7-9",
+        "label": "XMLファイルの読み取り",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-10",
+        "label_header": "コード7-10",
+        "label": "JsonNodeを利用してhero.jsonを読み取る",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリの利用およびファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-11",
+        "label_header": "コード7-11",
+        "label": "データバインディングによってHero.jsonを読み取る",
+        "sourceFiles": [
+          "JsonFileData.java",
+          "HeroData.java",
+          "WeaponData.java",
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリの利用およびファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-12",
+        "label_header": "コード7-12",
+        "label": "勇者インスタンスの情報を読み取る処理",
+        "sourceFiles": [
+          "Hero.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-13",
+        "label_header": "コード7-13",
+        "label": "直列化に対応したHeroクラス",
+        "sourceFiles": [
+          "Hero.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-14",
+        "label_header": "コード7-14",
+        "label": "勇者インスタンスを保存し、復元する",
+        "sourceFiles": [
+          "Main.java",
+          "Hero.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-15",
+        "label_header": "コード7-15",
+        "label": "連鎖的な直列化を可能にしたHeroクラス",
+        "sourceFiles": [
+          "Hero.java",
+          "Sword.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-16",
+        "label_header": "コード7-16",
+        "label": "シリアルバージョンUIDを宣言したクラス",
+        "sourceFiles": [
+          "Hero.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code07-17",
+        "label_header": "コード7-17",
+        "label": "Excelファイルを新規作成して値を書き込む",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリの利用およびファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-18",
+        "label_header": "コード7-18",
+        "label": "ZIPファイルの内容一覧を表示",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-19",
+        "label_header": "コード7-19",
+        "label": "オルゴールBGMとベル音声の再生",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code07-20",
+        "label_header": "コード7-20",
+        "label": "JPEGファイルをPNG形式に変換",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quiz07-03",
+        "label_header": "",
+        "label": "練習7-3",
+        "sourceFiles": [
+          "Employee.java",
+          "Department.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans07-01",
+        "label_header": "",
+        "label": "練習7-1の解答",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans07-02",
+        "label_header": "",
+        "label": "練習7-2の解答",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans07-03",
+        "label_header": "",
+        "label": "練習7-3の解答",
+        "sourceFiles": [
+          "Main.java",
+          "Employee.java",
+          "Department.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはファイルを読み書きするため、dokojavaでは実行できません"
+      }
+    ]
+  },
+  {
+    "id": "chap08",
+    "label": "第8章 ネットワークアクセス",
+    "children": [
+      {
+        "id": "code08-01",
+        "label_header": "コード8-1",
+        "label": "https://dokojava.jpを取得する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードは外部ネットワークへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code08-02",
+        "label_header": "コード8-2",
+        "label": "Socketを用いてWebページを取得する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードは外部ネットワークへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code08-03",
+        "label_header": "コード8-3",
+        "label": "ServerSocketを使ったサーバプログラム",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはWebサーバ用プログラムのため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans08-01",
+        "label_header": "",
+        "label": "練習8-1の解答",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードは外部ネットワークへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans08-02",
+        "label_header": "",
+        "label": "練習8-2の解答",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードは外部ネットワークへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans08-03",
+        "label_header": "",
+        "label": "練習8-3の解答",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリの利用および外部ネットワークへのアクセスが必要なため、dokojavaでは実行できません"
+      }
+    ]
+  },
+  {
+    "id": "chap09",
+    "label": "第9章 データベースアクセス",
+    "children": [
+      {
+        "id": "code09-01",
+        "label_header": "コード9-1",
+        "label": "JDBCを操作する基本パターン",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはデータベースへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code09-02",
+        "label_header": "コード9-2",
+        "label": "SQL送信パターン①更新系（STEP2部のみ）",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはデータベースへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code09-03",
+        "label_header": "コード9-3",
+        "label": "SQL送信パターン②検索系（STEP2部のみ）",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはデータベースへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code09-04",
+        "label_header": "コード9-4",
+        "label": "結果表処理パターン①（複数行）",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはデータベースへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code09-05",
+        "label_header": "コード9-5",
+        "label": "結果表処理パターン②（単一行）",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはデータベースへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code09-06",
+        "label_header": "コード9-6",
+        "label": "基本パターンコード（トランザクション利用時）",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはデータベースへのアクセスが必要なため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quiz09-02",
+        "label_header": "",
+        "label": "練習9-2",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans09-01",
+        "label_header": "",
+        "label": "練習9-1の解答",
+        "sourceFiles": [
+          "Item.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans09-02",
+        "label_header": "",
+        "label": "練習9-2の解答",
+        "sourceFiles": [
+          "ItemsDAO.java",
+          "Item.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはデータベースへのアクセスが必要なため、dokojavaでは実行できません"
+      }
+    ]
+  },
+  {
+    "id": "chap10",
+    "label": "第10章 基本的な開発ツール",
+    "children": [
+      {
+        "id": "code10-01",
+        "label_header": "コード10-1",
+        "label": "javadocコメントを加えたソースコード",
+        "sourceFiles": [
+          "Account.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code10-02",
+        "label_header": "コード10-2",
+        "label": "javadocタグを加えたソースコード",
+        "sourceFiles": [
+          "Account.java",
+          "Bank.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは一部を省略しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "code10-03",
+        "label_header": "コード10-3",
+        "label": "アノテーションを利用したコード",
+        "sourceFiles": [
+          "NewAccount.java",
+          "Account.java",
+          "Bank.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code10-04",
+        "label_header": "コード10-4",
+        "label": "build.xmlの例",
+        "sourceFiles": [
+          "build.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはJavaのソースコードではないため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code10-05",
+        "label_header": "コード10-5",
+        "label": "最低限のPOM",
+        "sourceFiles": [
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはJavaのソースコードではないため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code10-06",
+        "label_header": "コード10-6",
+        "label": "Mavenビルド対象となるJavaプログラム",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code10-07",
+        "label_header": "コード10-7",
+        "label": "プロジェクトサイト生成プラグインの使用",
+        "sourceFiles": [
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはJavaのソースコードではないため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code10-08",
+        "label_header": "コード10-8",
+        "label": "修正したpom.xmlとMain.java",
+        "sourceFiles": [
+          "pom.xml",
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "quiz10-01",
+        "label_header": "",
+        "label": "練習10-1",
+        "sourceFiles": [
+          "Bank.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはパッケージを利用しているため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans10-01",
+        "label_header": "",
+        "label": "練習10-1の解答",
+        "sourceFiles": [
+          "Bank.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはパッケージを利用しているため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans10-02",
+        "label_header": "",
+        "label": "練習10-2の解答",
+        "sourceFiles": [
+          "manifest.txt"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはJavaのソースコードではないため、dokojavaでは実行できません"
+      },
+      {
+        "id": "quizans10-04",
+        "label_header": "",
+        "label": "練習10-4の解答",
+        "sourceFiles": [
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはJavaのソースコードではないため、dokojavaでは実行できません"
+      }
+    ]
+  },
+  {
+    "id": "chap11",
+    "label": "第11章 単体テストとアサーション",
+    "children": [
+      {
+        "id": "code11-01",
+        "label_header": "コード11-1",
+        "label": "テスト対象のAccountクラス",
+        "sourceFiles": [
+          "Account.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code11-02",
+        "label_header": "コード11-2",
+        "label": "初めてのテストクラス",
+        "sourceFiles": [
+          "AccountTest.java",
+          "Account.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code11-03",
+        "label_header": "コード11-3",
+        "label": "JUnit5のためのテストクラス",
+        "sourceFiles": [
+          "AccountTest.java",
+          "Account.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "code11-04",
+        "label_header": "コード11-4",
+        "label": "テスト実行のためのpom.xml",
+        "sourceFiles": [
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはJavaのソースコードではないため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code11-05",
+        "label_header": "コード11-5",
+        "label": "アサーションを用いたコードの例",
+        "sourceFiles": [
+          "Account.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": "dokojavaではアサーション機能を有効にして実行することはできません"
+      },
+      {
+        "id": "code11-06",
+        "label_header": "コード11-6",
+        "label": "必ずAssertionErrorが起こるはずのコード",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": "dokojavaではアサーション機能を有効にして実行することはできません"
+      },
+      {
+        "id": "code11-07",
+        "label_header": "コード11-7",
+        "label": "アサーションのON／OFFで動作が変わってしまう",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": "dokojavaではアサーション機能を有効にして実行することはできません"
+      },
+      {
+        "id": "quiz11-01",
+        "label_header": "",
+        "label": "練習11-1",
+        "sourceFiles": [
+          "Bank.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans11-01",
+        "label_header": "",
+        "label": "練習11-1の解答",
+        "sourceFiles": [
+          "BankTest.java",
+          "Bank.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "quizans11-02",
+        "label_header": "",
+        "label": "練習11-2の解答",
+        "sourceFiles": [
+          "Bank.java",
+          "BankTest.java",
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      }
+    ]
+  },
+  {
+    "id": "chap12",
+    "label": "第12章 メトリクスとリファクタリング",
+    "children": [
+      {
+        "id": "code12-01",
+        "label_header": "コード12-1",
+        "label": "カバレッジの計測",
+        "sourceFiles": [
+          "Account.java",
+          "AccountTest.java",
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "quiz12-03",
+        "label_header": "",
+        "label": "練習12-3",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans12-01",
+        "label_header": "",
+        "label": "練習12-1の解答",
+        "sourceFiles": [
+          "Bank.java",
+          "BankTest.java",
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "quizans12-02",
+        "label_header": "",
+        "label": "練習12-2の解答",
+        "sourceFiles": [
+          "Bank.java",
+          "BankTest.java",
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "quizans12-03",
+        "label_header": "",
+        "label": "練習12-3の解答",
+        "sourceFiles": [
+          "Main.java",
+          "pom.xml"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap13",
+    "label": "第13章 ソースコードの管理と共有",
+    "children": [
+      {
+        "id": "code13-01",
+        "label_header": "コード13-1",
+        "label": ".gitignoreの例",
+        "sourceFiles": [
+          "gitignore"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはJavaのソースコードではないため、dokojavaでは実行できません（なお、正式なファイル名は「.gitignore」です）"
+      }
+    ]
+  },
+  {
+    "id": "chap14",
+    "label": "第14章 アジャイルな開発",
+    "children": [
+      {
+        "id": "code14-01",
+        "label_header": "コード14-1",
+        "label": "CracterとHeroを集約するPartyクラス",
+        "sourceFiles": [
+          "Party.java",
+          "Hero.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code14-02",
+        "label_header": "コード14-2",
+        "label": "最初に作ったテストケース",
+        "sourceFiles": [
+          "AccountTest.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードは外部ライブラリを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "code14-03",
+        "label_header": "コード14-3",
+        "label": "テストを通る最低限のAccountクラス",
+        "sourceFiles": [
+          "Account.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code14-04",
+        "label_header": "コード14-4",
+        "label": "テストを通り、かつ保守しやすいAccountクラス",
+        "sourceFiles": [
+          "Account.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz14-01",
+        "label_header": "",
+        "label": "練習14-1",
+        "sourceFiles": [
+          "TeamMember.java",
+          "Leader.java",
+          "Team.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap15",
+    "label": "第15章 設計の原則とデザインパターン",
+    "children": [
+      {
+        "id": "code15-01",
+        "label_header": "コード15-1",
+        "label": "クラス同士の依存関係",
+        "sourceFiles": [
+          "Account.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code15-02",
+        "label_header": "コード15-2",
+        "label": "「世界に1つだけの花」を誤って2つ作ってしまう",
+        "sourceFiles": [
+          "OnlyoneFlower.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code15-03",
+        "label_header": "コード15-3",
+        "label": "1つだけしかインスタンスを作成できない花",
+        "sourceFiles": [
+          "SingletonFlower.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code15-04",
+        "label_header": "コード15-4",
+        "label": "オセロゲームの人工知能関連クラス",
+        "sourceFiles": [
+          "OthelloAI.java",
+          "StrongOthelloAI.java",
+          "WeakOthelloAI.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code15-05",
+        "label_header": "コード15-5",
+        "label": "オセロゲームの本体",
+        "sourceFiles": [
+          "OthelloGame.java",
+          "OthelloAI.java",
+          "StrongOthelloAI.java",
+          "WeakOthelloAI.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code15-06",
+        "label_header": "コード15-6",
+        "label": "あいさつの仕方を「一部」だけ決めている",
+        "sourceFiles": [
+          "Character.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code15-07",
+        "label_header": "コード15-7",
+        "label": "TemplateMethodパターンを用いた例",
+        "sourceFiles": [
+          "Character.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "code15-08",
+        "label_header": "コード15-8",
+        "label": "Javaで作る時報Webアプリ",
+        "sourceFiles": [
+          "ClockApp.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code15-09",
+        "label_header": "コード15-9",
+        "label": "RPGフレームワークのJARファイル用マニフェスト例",
+        "sourceFiles": [
+          "MANIFEST.MF"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはJavaのソースコードではないため、dokojavaでは実行できません"
+      },
+      {
+        "id": "code15-10",
+        "label_header": "コード15-10",
+        "label": "モジュール名の宣言とアクセス制御",
+        "sourceFiles": [
+          "module-info.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはパッケージを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "code15-11",
+        "label_header": "コード15-11",
+        "label": "リフレクション許可のアクセス制御",
+        "sourceFiles": [
+          "module-info.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはパッケージを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "code15-12",
+        "label_header": "コード15-12",
+        "label": "commons-lang依存の宣言",
+        "sourceFiles": [
+          "module-info.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": "このコードはパッケージを利用しているため、dokojavaではコンパイルできません"
+      },
+      {
+        "id": "quiz15-02",
+        "label_header": "",
+        "label": "練習15-2",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": true,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans15-02",
+        "label_header": "",
+        "label": "練習15-2の解答",
+        "sourceFiles": [
+          "MyLogger.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap16",
+    "label": "第16章 スレッドによる並列処理",
+    "children": [
+      {
+        "id": "code16-01",
+        "label_header": "コード16-1",
+        "label": "カウントダウン中は入力できない",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code16-02",
+        "label_header": "コード16-2",
+        "label": "カウントダウン中も入力を受け付ける",
+        "sourceFiles": [
+          "PrintingThread.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "code16-03",
+        "label_header": "コード16-3",
+        "label": "カウントダウン中の入力によって中断する",
+        "sourceFiles": [
+          "PrintingThread.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quiz16-02",
+        "label_header": "",
+        "label": "練習16-2",
+        "sourceFiles": [
+          "Counter.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans16-01",
+        "label_header": "",
+        "label": "練習16-1の解答",
+        "sourceFiles": [
+          "CountUpThread.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans16-02",
+        "label_header": "",
+        "label": "練習16-2の解答",
+        "sourceFiles": [
+          "Counter.java",
+          "AnotherCounter.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap17",
+    "label": "第17章 ユーザーインタフェース制御",
+    "children": [
+      {
+        "id": "code17-01",
+        "label_header": "コード17-1",
+        "label": "ウィンドウを表示する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code17-02",
+        "label_header": "コード17-2",
+        "label": "ウィンドウにラベルとボタンを追加する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code17-03",
+        "label_header": "コード17-3",
+        "label": "位置とサイズを指定して配置する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code17-04",
+        "label_header": "コード17-4",
+        "label": "BorderLayoutで部品を自動的に配置する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code17-05",
+        "label_header": "コード17-5",
+        "label": "ActionListenerを実装したクラスを定義する",
+        "sourceFiles": [
+          "MinatoListener.java",
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code17-06",
+        "label_header": "コード17-6",
+        "label": "MouseListenerを使ってクリックを検知する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code17-07",
+        "label_header": "コード17-7",
+        "label": "MouseAdapterを使ってクリックを検知する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "code17-08",
+        "label_header": "コード17-8",
+        "label": "ファイルを読んでウィンドウに表示する",
+        "sourceFiles": [
+          "Main.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "quizans17-01",
+        "label_header": "",
+        "label": "練習17-1の解答",
+        "sourceFiles": [
+          "Main.java",
+          "IDPanel.java",
+          "PWPanel.java",
+          "CheckPanel.java",
+          "ButtonPanel.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      },
+      {
+        "id": "quizans17-02",
+        "label_header": "",
+        "label": "練習17-2の解答",
+        "sourceFiles": [
+          "Main.java",
+          "IDPanel.java",
+          "PWPanel.java",
+          "CheckPanel.java",
+          "ButtonPanel.java"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": "このコードはdokojavaでは実行できません"
+      }
+    ]
+  }
+]
