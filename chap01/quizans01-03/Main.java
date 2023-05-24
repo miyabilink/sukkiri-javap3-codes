@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat;
 
 public class Main {
   public static void main(String[] args) throws Exception {
-    SimpleDateFormat f = new SimpleDateFormat("yyyy/mm/dd");
+    SimpleDateFormat f = new SimpleDateFormat("yyyy/MM/dd");
     ArrayList<Book> books = new ArrayList<>();
 
     Book b1 = new Book();
