@@ -13,14 +13,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: create a ZIP file
         run: ls &&
-          zip -r sukkiri-java2-codes.zip chap* LICENSE.txt README.md &&
-          unzip -t sukkiri-java2-codes.zip
+          zip -r sukkiri-javap3-codes.zip chap* LICENSE.txt README.md &&
+          unzip -t sukkiri-javap3-codes.zip
       - name: Create Release
         uses: softprops/action-gh-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           name: Release ${{ github.ref_name }}
-          files: sukkiri-java2-codes.zip
+          files: sukkiri-javap3-codes.zip
           draft: false
           prerelease: false
